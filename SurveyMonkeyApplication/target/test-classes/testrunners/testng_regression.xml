@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Survey Monkey Regression Suite">
+
+	<!-- ExtentReport -->
+	<listeners>
+		<listener class-name="com.qa.surveymonkey.listners.ExtentReportListener"></listener>
+	</listeners>
+	
+ 	<test  name="Login Page Test">
+ 		<classes>
+      		<class name="com.qa.surveymonkey.tests.LoginPageTest"/>
+     	</classes>
+	</test>
+	
+    <test  name="Home Page Test">
+ 		<classes>
+      		<class name="com.qa.surveymonkey.tests.HomePageTest"/>
+     	</classes>
+	</test>
+</suite> 

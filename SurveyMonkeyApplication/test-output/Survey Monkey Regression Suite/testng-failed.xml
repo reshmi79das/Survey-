@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Survey Monkey Regression Suite]">
+  <listeners>
+    <listener class-name="com.qa.surveymonkey.listners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Home Page Test(failed)">
+    <classes>
+      <class name="com.qa.surveymonkey.tests.HomePageTest">
+        <methods>
+          <include name="verifyHomePageHeader"/>
+          <include name="homeSetup"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.surveymonkey.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+</suite> <!-- Failed suite [Survey Monkey Regression Suite] -->

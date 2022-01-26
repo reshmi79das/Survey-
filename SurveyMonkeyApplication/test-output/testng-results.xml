@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Survey Monkey Regression Suite" duration-ms="31732" started-at="2020-11-26T01:22:41Z" finished-at="2020-11-26T01:23:13Z">
+    <groups>
+    </groups>
+    <test name="Login Page Test" duration-ms="15438" started-at="2020-11-26T01:22:41Z" finished-at="2020-11-26T01:22:57Z">
+      <class name="com.qa.surveymonkey.tests.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.surveymonkey.tests.LoginPageTest@3191a6]" name="setup" is-config="true" duration-ms="8335" started-at="2020-11-26T01:22:41Z" finished-at="2020-11-26T01:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.surveymonkey.tests.LoginPageTest@3191a6]" name="verifySignUpLinkTest" duration-ms="1112" started-at="2020-11-26T01:22:50Z" finished-at="2020-11-26T01:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.surveymonkey.tests.LoginPageTest@3191a6]" name="verifyLoginPageTitleTest" duration-ms="28" started-at="2020-11-26T01:22:51Z" finished-at="2020-11-26T01:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.surveymonkey.tests.LoginPageTest@3191a6]" name="loginTest" duration-ms="5123" started-at="2020-11-26T01:22:51Z" finished-at="2020-11-26T01:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.surveymonkey.tests.LoginPageTest@3191a6]" name="tearDown" is-config="true" duration-ms="798" started-at="2020-11-26T01:22:56Z" finished-at="2020-11-26T01:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.surveymonkey.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test name="Home Page Test" duration-ms="16081" started-at="2020-11-26T01:22:57Z" finished-at="2020-11-26T01:23:13Z">
+      <class name="com.qa.surveymonkey.tests.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.surveymonkey.tests.HomePageTest@65fe7c]" name="setup" is-config="true" duration-ms="7564" started-at="2020-11-26T01:22:57Z" finished-at="2020-11-26T01:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homeSetup()[pri:0, instance:com.qa.surveymonkey.tests.HomePageTest@65fe7c]" name="homeSetup" is-config="true" duration-ms="5190" started-at="2020-11-26T01:23:04Z" finished-at="2020-11-26T01:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeSetup -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.qa.surveymonkey.tests.HomePageTest@65fe7c]" name="verifyHomePageTitle" duration-ms="430" started-at="2020-11-26T01:23:10Z" finished-at="2020-11-26T01:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="verifyHomePageHeader()[pri:2, instance:com.qa.surveymonkey.tests.HomePageTest@65fe7c]" name="verifyHomePageHeader" duration-ms="809" started-at="2020-11-26T01:23:10Z" finished-at="2020-11-26T01:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeader -->
+        <test-method status="PASS" signature="verifyThatUserLoggedIn()[pri:3, instance:com.qa.surveymonkey.tests.HomePageTest@65fe7c]" name="verifyThatUserLoggedIn" duration-ms="660" started-at="2020-11-26T01:23:11Z" finished-at="2020-11-26T01:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserLoggedIn -->
+        <test-method status="PASS" signature="mySurveysLinkText()[pri:4, instance:com.qa.surveymonkey.tests.HomePageTest@65fe7c]" name="mySurveysLinkText" duration-ms="688" started-at="2020-11-26T01:23:12Z" finished-at="2020-11-26T01:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySurveysLinkText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.surveymonkey.tests.HomePageTest@65fe7c]" name="tearDown" is-config="true" duration-ms="729" started-at="2020-11-26T01:23:12Z" finished-at="2020-11-26T01:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.surveymonkey.tests.HomePageTest -->
+    </test> <!-- Home Page Test -->
+  </suite> <!-- Survey Monkey Regression Suite -->
+</testng-results>
